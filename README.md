@@ -1,4 +1,4 @@
-# deepfake-detection
+# Deepfake Detection
 
 This is the code for a deepfake detector. In a first step frames are extracted from videos. Then, the faces are detected and extracted in each frame. Finally, a classification model is trained on the frames. GradCam is used to visualize the activations. The code uses Tensorflow, dlib and OpenCV.
 
